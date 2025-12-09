@@ -13,6 +13,6 @@ public class Q1_MoveZeroes implements Solution {
         }
         while(count<n) arr[count++] = 0;
 
-        System.out.println(Arrays.toString(arr));
+        Helper.printArray(arr);
     }
 }
